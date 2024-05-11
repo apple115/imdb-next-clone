@@ -3,9 +3,10 @@ import MenuItem from "./Menultem";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillInfoCircleFill } from "react-icons/bs";
 import DarkModeSwitch from "./DarkModeSwitch";
+
 export default function Header() {
   return (
-    <div className="flex justify-between items-center p-3 max-w-6xl mx-auto">
+    <div className="flex justify-between items-center p-3 max-w-7xl mx-auto">
       <div className="flex gap-4">
         <MenuItem tilte="home" address="/" Icon={AiFillHome} />
         <MenuItem tilte="about" address="/about" Icon={BsFillInfoCircleFill} />
